@@ -1,6 +1,6 @@
 <?php
 
-namespace Carnage\Scheduler\Service\Factory\CommandHandler;
+namespace Carnage\Scheduler\Service\Factory;
 
 use Carnage\Cqrs\Aggregate\Identity\YouTubeStyleIdentityGenerator;
 use Carnage\Scheduler\Domain\Model\Scheduler as SchedulerAggregate;

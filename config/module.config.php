@@ -10,7 +10,7 @@ return [
     'command_handlers' => [
         'factories' => [
             \Carnage\Scheduler\Domain\CommandHandler\Scheduler::class =>
-                \Carnage\Scheduler\Service\Factory\CommandHandler\Scheduler::class,
+                \Carnage\Scheduler\Service\Factory\Scheduler::class,
         ],
     ],
     'command_subscriptions' => [
