@@ -11,7 +11,7 @@ class WakeupFactory implements FactoryInterface
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
         $serviceLocator = $serviceLocator->getServiceLocator();
-        return WakeUp::build(
+        return Wakeup::build(
             $serviceLocator->get(CommandBusInterface::class)
         );
     }
